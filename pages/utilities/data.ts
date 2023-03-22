@@ -23,6 +23,9 @@ import {
   blender,
   inkscape,
   krita,
+  cell,
+  cinco,
+  noname
 } from "../assets/index-assets";
 
 export const navLinks = [
@@ -132,7 +135,7 @@ const experiences = [
   {
     title: "Chef de Partie",
     company_name: "TheNOname",
-    icon: node,
+    icon: noname,
     iconBg: "#383E56",
     date: "June 2020 - September 2021",
     points: [
@@ -144,7 +147,7 @@ const experiences = [
   {
     title: "Chef de Partie",
     company_name: "Cell Restaurant",
-    icon: node,
+    icon: cell,
     iconBg: "#383E56",
     date: "July 2019 - May 2020",
     points: [
@@ -156,7 +159,7 @@ const experiences = [
   {
     title: "Chef de Partie",
     company_name: "5-Cinco by Paco ",
-    icon: node,
+    icon: cinco,
     iconBg: "#383E56",
     date: "September 2018 - June 2019",
     points: [

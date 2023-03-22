@@ -19,6 +19,9 @@ import inkscape from "./techstack/inkscape.png";
 import krita from "./techstack/krita.svg";
 
 import node from "./experience/node.jpeg";
+import noname from "./experience/noname.png";
+import cell from "./experience/cell.jpg";
+import cinco from "./experience/cinco.jpg";
 
 import chatappapp from "./portfolio/chatappapp.png";
 import meetapp from "./portfolio/meetapp.png";
@@ -56,5 +59,8 @@ export {
   blender,
   inkscape,
   krita,
-  joao
+  joao,
+  cell,
+  noname,
+  cinco
 };

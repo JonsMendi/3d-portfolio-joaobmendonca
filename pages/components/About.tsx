@@ -23,25 +23,27 @@ const About = () => {
           I&apos;m a Full-stack Web Developer with background in Architecture, originally from the Azores, 
           Portugal and now living in Berlin. My skills include Typescript, Javascript, 
           and frameworks like Angular and React. I&apos;m also experienced in CSS/SCSS, Three.js, 
-          and Leaflet.js, and have a passion for design. Let&apos;s create something beautiful together!
+          and Leaflet.js, with a great passion for design.
         </m.div>
         <m.div
           variants={titleVariant()}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className='text-tertiary'>Goal: </span>
-          I always guided myself through challenges aiming to improve my skills every day. 
-          Due to my experience providing innovative and quality user experiences, I am aspiring to development opportunities that can modernize my 
-          logical and creative methods, to continue providing value through the implementation of web applications.
+          My approach to challenges has always been to use them as an opportunity to enhance my skills on a daily basis. 
+          Based on my track record of delivering innovative and high-quality user experiences, I am eager to pursue development 
+          opportunities that can help modernize my logical and creative techniques. This would enable me to continue delivering 
+          value through the development of cutting-edge web applications.
         </m.div>
         <m.div
           variants={titleVariant()}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className='text-tertiary'>Hobbies: </span>
-          Being from the Azores and living in Berlin, I appreciate going for walks in the suburbs of the city searching for the nature of Brandenburg. 
-          Gathering with friends and family it&apos;s as well a big part of my priorities when having some free time, and not less important, sports have a 
-          big dose of value and I try to keep a routine going for Bouldering or playing Basketball!
+          As someone hailing from the Azores but residing in Berlin, I enjoy exploring the outskirts of the 
+          city in search of the natural beauty of Brandenburg. Additionally, spending time with loved ones 
+          is a top priority for me during my free time. Equally significant is my commitment to physical fitness, 
+          which I uphold by engaging in activities such as bouldering and basketball on a regular basis.
         </m.div>
       </div>
     </m.section>
