@@ -9,6 +9,7 @@ import ExperienceCard from "./cards/ExperienceCard";
 const Experience = () => {
   return (
     <m.section
+      id="experience"
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}

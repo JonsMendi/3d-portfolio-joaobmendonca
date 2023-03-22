@@ -33,8 +33,10 @@ const Contact = () => {
   };
 
   return (
-    <div className={`${styles.padding}  mx-auto relative z-0`}>
-      <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden bg-[#292d33]`}>
+    <div
+    id="contacts"
+    className={`${styles.padding}  mx-auto relative z-0`}>
+      <div className={`xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden bg-[#292d33]`}>
         <div className=" flex-[0.5] p-8 rounded-">
 
           <p className={styles.sectionSubText}>Let&apos;s talk about it</p>

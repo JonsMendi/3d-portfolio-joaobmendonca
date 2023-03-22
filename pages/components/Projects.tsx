@@ -9,6 +9,7 @@ import ProjectCard from "./cards/ProjectCard";
 const Projects = () => {
   return (
     <m.section
+    id="projects"
     initial="hidden"
     whileInView="show"
     viewport={{once: true, amount: 0.25}}
