@@ -25,10 +25,12 @@ const Projects = () => {
           variants={fadeInVariant("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The projects I have worked on are a demonstration of my abilities and experience. 
-          Each project is described briefly and includes links to both the code repositories and live demos. 
-          This collection of projects is a testament to my aptitude in tackling intricate problems, 
-          working with a variety of technologies, and skillfully managing projects.
+          The projects I&lsquo;ve worked on are a reflection of my skills and experience, 
+          and I&lsquo;d like to share them with you. Each project is described briefly and 
+          includes links to the code repositories and live demos, giving you a comprehensive 
+          view of what I&lsquo;ve accomplished. Through these projects, I&lsquo;ve had the opportunity 
+          to tackle complex problems and work with a variety of technologies, all while 
+          skillfully managing each project from start to finish.
         </m.p>
       </div>
 

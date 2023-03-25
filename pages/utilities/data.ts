@@ -121,24 +121,27 @@ const technologies = [
 const experiences = [
   {
     title: "Junior Frontend Developer",
-    company_name: "NODE Robotics GmbH",
+    company_name: "NODE Robotics GmbH - Stuttgart, Germany",
     icon: node,
-    iconBg: "#383E56",
+    icon_background: "#000000",
     date: "September 2022 - Present (Remote)",
-    points: [
+    description: "Working at NODE have been an incredibly fulfilling experience. Being part of a small, tight-knit team fueled by ambition and a constant drive to improve meant that every day brought new challenges and opportunities for growth. The shared goal of pushing ourselves to be better than we were yesterday fostered a culture of innovation and collaboration, where everyone's contributions were valued and respected. I feel grateful to have been a part of such an inspiring team, and the lessons and memories I gained will stay with me for a lifetime.",
+    tasks: [
       "Development of a Fleet Management Robotic Software Application with Angular, Leaflet.js,and Three.js.",
       "Writing unit test for the application with Jasmine.",
       "Creation of 2D and 3D screen design with Inkscape and Blender.",
       "Reviewing code of other developers (students).",
     ],
+   
   },
   {
     title: "Chef de Partie",
-    company_name: "TheNOname",
+    company_name: "TheNOname - 17 Gault Millau",
     icon: noname,
-    iconBg: "#383E56",
-    date: "June 2020 - September 2021",
-    points: [
+    icon_background: "#000000",
+    date: "June 2020 - September 2021, in Berlin",
+    description: "Working at TheNOname restaurant was a rewarding experience that allowed me to focus on my passion for creating new dishes. The environment was supportive and provided me with ample opportunities to experiment and innovate in the kitchen. I am proud to say that some of the dishes I created during my time there were recognized in gastronomic magazines, which was a tremendous honor. However, as much as I enjoyed working in the culinary world, it was during my time at TheNOname that I realized I wanted to pursue a career in programming. Although I cherished the memories and experiences gained during my time at the restaurant, I knew it was time for a new chapter in my life.",
+    tasks: [
       "Cold, hot, and pastry section management.",
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
@@ -146,11 +149,12 @@ const experiences = [
   },
   {
     title: "Chef de Partie",
-    company_name: "Cell Restaurant",
+    company_name: "Cell Restaurant - 16 Gault Millau",
     icon: cell,
-    iconBg: "#383E56",
-    date: "July 2019 - May 2020",
-    points: [
+    icon_background: "#FFFFFF",
+    date: "July 2019 - May 2020, in Berlin",
+    description: "Working at Cell Restaurant was a remarkable experience that broadened my horizons both professionally and culturally. As part of a smaller restaurant team, I had the opportunity to work alongside a truly exceptional and diverse group of international talent. Every member of the team came from a different country, and the knowledge-sharing that took place was simply incredible. The kitchen itself was an experimental take on French neo-classic cuisine, which made every day an adventure and a learning opportunity. The level of creativity and innovation demanded of us was challenging, but also incredibly rewarding. Looking back, my time at Cell Restaurant not only allowed me to develop my culinary skills but also taught me the importance of embracing diversity and sharing knowledge.",
+    tasks: [
       "Cold, hot, and pastry section management.",
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
@@ -158,11 +162,12 @@ const experiences = [
   },
   {
     title: "Chef de Partie",
-    company_name: "5-Cinco by Paco ",
+    company_name: "5-Cinco by Paco - 1 Michelin Star Restaurant",
     icon: cinco,
-    iconBg: "#383E56",
-    date: "September 2018 - June 2019",
-    points: [
+    icon_background: "#FFFFFF",
+    date: "September 2018 - June 2019, in Berlin",
+    description: "Working at 5-Cinco was an exceptional experience that played a significant role in my personal and professional development. As my first restaurant job in a new country, being part of a spanish Michelin-starred team was a dream come true. The level of responsibility was enormous, but the support and camaraderie among my colleagues made it all possible. We were like family, always standing by each other and helping one another whenever needed. The attention to detail required in the kitchen was intense, pushing me to new heights of precision and accuracy, and every day was a new challenge that demanded constant creativity and flexibility. It was a dynamic and stimulating environment, and the skills and values that I gained during my time at 5-Cinco continue to impact me positively in all areas of my life.",
+    tasks: [
       "Cold, hot, and pastry section management.",
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
@@ -170,24 +175,24 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const feedbacks = [
   {
-    testimonial:
-      "João was very borring and annoying. If I asked black he made white, if I said left he went back. Jesus...",
+    feedback:
+      "João is kind and friendly person. It is a big pleasure to work with him. He is curious about new software technologies and learns fast. He has a good eye for details and a high ability to see things from a users perspective.",
     name: "Christopher Zündorf",
-    designation: "Lead Frontend",
-    company: "NODE Robotics Gmbh",
+    designation: "Lead Frontend Developer",
+    company: "NODE Robotics GmbH",
   },
   {
-    testimonial:
-      "Biggest funckin cunt I ever saw. He talks shit all the time and annoys everyone around. With him I had an horrifying relation",
+    feedback:
+      "It was a pleasure to be able to work with João. His attention to detail, professionalism, passion, and respect for his work was always second to none. Always courteous to his colleagues and willing to go the extra mile to lend a helping hand where needed. Also, a cod fish loving Cunt.",
     name: "Liam Valentine.",
     designation: "Executive Chef",
     company: "Cell Restaurant",
   },
   {
-    testimonial:
-      "What João needs is some kicks in the but and work until he can't anymore!",
+    feedback:
+      "João is a very intelligent and emotional, empathetic, hard worker, and a very fast learner, I tried to rehire him many times after our experience together. His details, human values, and optimism make him a very very special employee.",
     name: "Miquel Villacrosa",
     designation: "Executive Chef",
     company: "5-Cinco by Paco Perez",
@@ -202,15 +207,12 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
       },
       {
         name: "Bootstrap",
-        color: "green-text-gradient",
       },
       {
         name: "JQuery",
-        color: "pink-text-gradient",
       },
     ],
     image: pokedex,
@@ -223,15 +225,12 @@ const projects = [
     tags: [
       {
         name: "Node.js",
-        color: "blue-text-gradient",
       },
       {
         name: "Express.js",
-        color: "green-text-gradient",
       },
       {
         name: "MongoDB",
-        color: "pink-text-gradient",
       },
     ],
     image: postman,
@@ -244,19 +243,15 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
       },
       {
         name: "React",
-        color: "green-text-gradient",
       },
       {
         name: "CSS",
-        color: "pink-text-gradient",
       },
       {
         name: "Bootstrap",
-        color: "pink-text-gradient",
       },
     ],
     image: myMovies,
@@ -269,19 +264,15 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
       },
       {
         name: "React",
-        color: "green-text-gradient",
       },
       {
         name: "CSS",
-        color: "pink-text-gradient",
       },
       {
         name: "AWS Lambda",
-        color: "pink-text-gradient",
       },
     ],
     image: meetapp,
@@ -294,19 +285,15 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
       },
       {
         name: "React Native",
-        color: "green-text-gradient",
       },
       {
         name: "CSS",
-        color: "pink-text-gradient",
       },
       {
         name: "Firestore",
-        color: "pink-text-gradient",
       },
     ],
     image: chatappapp,
@@ -319,19 +306,15 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
       },
       {
         name: "TypeScript",
-        color: "pink-text-gradient",
       },
       {
         name: "Angular",
-        color: "green-text-gradient",
       },
       {
         name: "CSS",
-        color: "pink-text-gradient",
       },
     ],
     image: myFlix,
@@ -339,4 +322,4 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, testimonials, projects };
+export { technologies, experiences, feedbacks, projects };

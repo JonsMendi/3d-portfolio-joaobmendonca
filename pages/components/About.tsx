@@ -20,8 +20,8 @@ const About = () => {
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className='text-tertiary'>Experience: </span>
-          I&apos;m a Full-stack Web Developer with background in Architecture, originally from the Azores, 
-          Portugal and now living in Berlin. My skills include Typescript, Javascript, 
+          I&apos;m a Full-stack Web Developer with background in Architecture and Gastronomy, originally from the Azores, 
+          Portugal and now living in Berlin. My skills include Javascript, Typescript,
           and frameworks like Angular and React. I&apos;m also experienced in CSS/SCSS, Three.js, 
           and Leaflet.js, with a great passion for design.
         </m.div>

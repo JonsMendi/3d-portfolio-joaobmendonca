@@ -2,7 +2,7 @@ import { motion as m } from "framer-motion";
 import { fadeInVariant } from "../../utilities/motion-framer";
 interface FeedbackCardProps {
   index: number;
-  testimonial: string;
+  feedback: string;
   name: string;
   designation: string;
   company: string;
@@ -10,7 +10,7 @@ interface FeedbackCardProps {
 
 const FeedbackCard = ({
   index,
-  testimonial,
+  feedback,
   name,
   designation,
   company,
@@ -20,7 +20,7 @@ const FeedbackCard = ({
     className='bg-primary border-2 border-tertiary p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>&quot;{testimonial}&quot;</p>
+      <p className='text-white tracking-wider text-[18px]'>&quot;{feedback}&quot;</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>

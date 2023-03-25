@@ -105,11 +105,11 @@ const Contact = () => {
                 <p className="text-tertiary mb-2">+491744010727</p>
                 <h2 className="text-xl font-bold mb-2">Social Media</h2>
                 <div className="flex flex-col ">
-                  <a href="https://www.linkedin.com/myprofile/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/jbm0288a26b/" target="_blank" rel="noopener noreferrer">
                     <p className="text-tertiary hover:text-gray-400 cursor-pointer w-6 h-6">LinkedIn</p>
                   </a>
-                  <a href="https://github.com/myusername" target="_blank" rel="noopener noreferrer">
-                    <p className="text-tertiary hover:text-gray-400 cursor-pointer w-6 h-6">Guithub</p>
+                  <a href="https://github.com/JonsMendi" target="_blank" rel="noopener noreferrer">
+                    <p className="text-tertiary hover:text-gray-400 cursor-pointer w-6 h-6">Github</p>
                   </a>
                 </div>
               </div>

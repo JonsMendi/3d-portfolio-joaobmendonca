@@ -1,6 +1,6 @@
 import { motion as m } from "framer-motion";
 import { styles } from "../style";
-import { testimonials } from "../utilities/data";
+import { feedbacks } from "../utilities/data";
 import { titleVariant } from "../utilities/motion-framer";
 import FeedbackCard from "./cards/FeedbackCard";
 
@@ -11,7 +11,7 @@ const Feedbacks = () => {
     whileInView="show"
     viewport={{once: true, amount: 0.25}}
     className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
-      <div className={`mt-12  rounded-[20px]`}>
+      <div className={`mt-12 rounded-[20px]`}>
       <div
         className={`rounded-2xl ${styles.padding} min-h-[300px]`}
       >
@@ -21,8 +21,8 @@ const Feedbacks = () => {
         </m.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+        {feedbacks.map((feedback, index) => (
+          <FeedbackCard key={feedback.name} index={index} {...feedback} />
         ))}
       </div>
     </div>

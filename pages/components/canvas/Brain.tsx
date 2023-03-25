@@ -5,14 +5,14 @@ import { Suspense } from 'react';
 export default function Brain() {
 
   return (
-    <Canvas className="cursor-pointer" >
+    <Canvas>
       {/* <OrbitControls enableZoom={false} /> */}{/* Provide mouse interaction with canvas */}
       <ambientLight intensity={0.5} />{/* Light inserted in the canvas */}
       <directionalLight position={[10, 2, 1]} intensity={1} />{/* Direction of the light inserted in the canvas */}
       <Suspense fallback={null}>
         <Sphere visible args={[1, 100, 200]} scale={1.5}>{/* Sphere is the form displayed by the canvas */}
           <MeshDistortMaterial 
-            color="#9f9882" 
+            color="#9f9882"
             attach="material"
             wireframe={true}
             distort={1.0} 
