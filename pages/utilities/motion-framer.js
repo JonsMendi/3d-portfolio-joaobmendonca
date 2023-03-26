@@ -1,6 +1,6 @@
 /* This file contains motion-framer variants to be applied all over the project */
 
-export const titleVariant = (delay?: number) => {
+export const titleVariant = (delay) => {
   return {
     hidden: {
       y: -50,
@@ -18,7 +18,7 @@ export const titleVariant = (delay?: number) => {
   };
 };
 
-export const fadeInVariant = (direction: string, type: string, delay: number, duration: number) => {
+export const fadeInVariant = (direction, type, delay, duration) => {
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,

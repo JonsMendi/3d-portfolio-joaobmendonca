@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/assets/index-assets.ts", "pages/assets/index-assets.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/assets/index-assets.js", "pages/assets/index-assets.js", "pages/style.js", "pages/utilities/data.js", "pages/utilities/motion-framer.js"],
   "exclude": ["node_modules"]
 }
