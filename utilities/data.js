@@ -187,7 +187,7 @@ const feedbacks = [
   },
   {
     feedback:
-      "It was a pleasure to be able to work with João. His attention to detail, professionalism, passion, and respect for his work was always second to none. Always courteous to his colleagues and willing to go the extra mile to lend a helping hand where needed. Also, a cod fish loving Cunt.",
+      "It was a pleasure to be able to work with João. His attention to detail, professionalism, passion, and respect for his work was always second to none. Always courteous to his colleagues and willing to go the extra mile to lend a helping hand where needed. I love him",
     name: "Liam Valentine.",
     designation: "Executive Chef",
     company: "Cell Restaurant",
