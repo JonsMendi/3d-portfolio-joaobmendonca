@@ -1,7 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 
-import { styles } from "../style";
+import { styles } from "../../utilities/style";
 import { projects } from "../../utilities/data";
 import { fadeInVariant, titleVariant } from "../../utilities/motion-framer";
 import ProjectCard from "./cards/ProjectCard";

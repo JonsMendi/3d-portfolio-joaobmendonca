@@ -1,7 +1,7 @@
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { motion as m } from "framer-motion";
-import { styles } from "../style";
+import { styles } from "../../utilities/style";
 import { experiences } from "../../utilities/data";
 import { titleVariant } from "../../utilities/motion-framer";
 import ExperienceCard from "./cards/ExperienceCard";

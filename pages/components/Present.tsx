@@ -1,4 +1,4 @@
-import { styles } from '../style';
+import { styles } from '../../utilities/style';
 import Brain from './canvas/Brain';
 
 const Present = () => {

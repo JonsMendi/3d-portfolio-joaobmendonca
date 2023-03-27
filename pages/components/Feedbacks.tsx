@@ -1,5 +1,5 @@
 import { motion as m } from "framer-motion";
-import { styles } from "../style";
+import { styles } from "../../utilities/style";
 import { feedbacks } from "../../utilities/data";
 import { titleVariant } from "../../utilities/motion-framer";
 import FeedbackCard from "./cards/FeedbackCard";
