@@ -50,3 +50,12 @@ export const containerVariants = {
     },
   },
 };
+
+const motionVariants = {
+  titleVariant,
+  fadeInVariant,
+  containerVariants,
+};
+
+export default motionVariants;
+
