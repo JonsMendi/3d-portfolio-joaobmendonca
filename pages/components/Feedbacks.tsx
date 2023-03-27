@@ -1,7 +1,7 @@
 import { motion as m } from "framer-motion";
 import { styles } from "../style";
-import { feedbacks } from "../utilities/data";
-import { titleVariant } from "../utilities/motion-framer";
+import { feedbacks } from "../../utilities/data";
+import { titleVariant } from "../../utilities/motion-framer";
 import FeedbackCard from "./cards/FeedbackCard";
 
 const Feedbacks = () => {

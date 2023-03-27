@@ -2,7 +2,7 @@ import React from "react";
 import { motion as m } from "framer-motion";
 
 
-import { fadeInVariant, titleVariant, containerVariants } from "../..//utilities/motion-framer";
+import { fadeInVariant, titleVariant, containerVariants } from "../../../utilities/motion-framer";
 import Image from "next/image";
 
 interface ProjectCardProps {

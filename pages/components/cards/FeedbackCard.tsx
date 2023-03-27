@@ -1,5 +1,5 @@
 import { motion as m } from "framer-motion";
-import { fadeInVariant } from "../../utilities/motion-framer";
+import { fadeInVariant } from "../../../utilities/motion-framer";
 interface FeedbackCardProps {
   index: number;
   feedback: string;

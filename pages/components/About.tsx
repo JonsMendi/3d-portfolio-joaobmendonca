@@ -1,7 +1,7 @@
 
 import { motion as m } from "framer-motion";
 import { styles } from "../style";
-import { titleVariant } from "../utilities/motion-framer";
+import { titleVariant } from "../../utilities/motion-framer";
 
 const About = () => {
   return (

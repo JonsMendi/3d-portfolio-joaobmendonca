@@ -1,6 +1,6 @@
 import { motion as m } from "framer-motion";
 import Image from 'next/image';
-import { fadeInVariant } from "../../utilities/motion-framer";
+import { fadeInVariant } from "../../../utilities/motion-framer";
 
 interface TechnologiesCardProps {
   index: number;
