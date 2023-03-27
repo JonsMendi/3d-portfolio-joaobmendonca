@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 import Image from "next/image";
 import { useState } from 'react';
-import { joao } from "../assets/index-assets";
+import joao from '../assets/joao-main-portrait.png';
 import { styles } from '../style';
 
 const Contact = () => {

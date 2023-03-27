@@ -1,32 +1,34 @@
-import {
-  chatappapp,
-  meetapp,
-  myFlix,
-  myMovies,
-  pokedex,
-  postman,
-  docker,
-  html,
-  javascript,
-  mongodb,
-  node,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
-  typescript,
-  angular,
-  leaflet,
-  bootstrap,
-  rxjs,
-  jasmine,
-  blender,
-  inkscape,
-  krita,
-  cell,
-  cinco,
-  noname
-} from "../assets/index-assets";
+import docker from "../assets/techstack/docker.png";
+import html from "../assets/techstack/html.png";
+import javascript from "../assets/techstack/javascript.png";
+import mongodb from "../assets/techstack/mongodb.png";
+import nodejs from "../assets/techstack/nodejs.png";
+import reactjs from "../assets/techstack/reactjs.png";
+import tailwind from "../assets/techstack/tailwind.png";
+import typescript from "../assets/techstack/typescript.png";
+import threejs from "../assets/techstack/threejs.svg";
+import angular from "../assets/techstack/angular.svg";
+import leaflet from "../assets/techstack/leaflet.png";
+import bootstrap from "../assets/techstack/bootstrap.svg";
+import rxjs from "../assets/techstack/rxjs.svg";
+import jasmine from "../assets/techstack/jasmine.png";
+import blender from "../assets/techstack/blender.svg";
+import inkscape from "../assets/techstack/inkscape.png";
+import krita from "../assets/techstack/krita.svg";
+
+import node from "../assets/experience/node.jpeg";
+import noname from "../assets/experience/noname.png";
+import cell from "../assets/experience/cell.jpg";
+import cinco from "../assets/experience/cinco.jpg";
+
+import chatappapp from "../assets/portfolio/chatappapp.png";
+import meetapp from "../assets/portfolio/meetapp.png";
+import myFlix from "../assets/portfolio/myFlix.png";
+import pokedex from "../assets/portfolio/pokedex.png";
+import postman from "../assets/portfolio/postman.png";
+import myMovies from "../assets/portfolio/movie-lists.png";
+
+
 
 export const navLinks = [
   {
