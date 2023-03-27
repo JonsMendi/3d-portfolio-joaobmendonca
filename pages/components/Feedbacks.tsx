@@ -20,7 +20,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Appreciation.</h2>
         </m.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={`-mt-32 pb-14 ${styles.paddingX} flex justify-center flex-wrap gap-7`}>
         {feedbacks.map((feedback, index) => (
           <FeedbackCard key={feedback.name} index={index} {...feedback} />
         ))}

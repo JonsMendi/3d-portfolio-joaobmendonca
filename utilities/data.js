@@ -20,6 +20,7 @@ import node from "/pages/assets/experience/node.jpeg";
 import noname from "/pages/assets/experience/noname.png";
 import cell from "/pages/assets/experience/cell.jpg";
 import cinco from "/pages/assets/experience/cinco.jpg";
+import architecure from "/pages/assets/experience/architecture.jpg";
 
 import chatappapp from "/pages/assets/portfolio/chatappapp.png";
 import meetapp from "/pages/assets/portfolio/meetapp.png";
@@ -134,7 +135,7 @@ const experiences = [
       "Creation of 2D and 3D screen design with Inkscape and Blender.",
       "Reviewing code of other developers (students).",
     ],
-   
+    link: "https://node-robotics.com/en/"
   },
   {
     title: "Chef de Partie",
@@ -148,6 +149,7 @@ const experiences = [
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
     ],
+    link: "https://the-noname.de/"
   },
   {
     title: "Chef de Partie",
@@ -161,6 +163,7 @@ const experiences = [
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
     ],
+    link: "https://www.cremeguides.com/en/berlin/restaurant-cell/"
   },
   {
     title: "Chef de Partie",
@@ -174,6 +177,21 @@ const experiences = [
       "Responsible to create and develop new dishes and menus.",
       "Manage and guiding teams",
     ],
+    link: "https://www.cremeguides.com/en/berlin/cinco-by-pack-perez-at-hotel-stue/"
+  },
+  {
+    title: "Architect",
+    company_name: "Casa do Sr. Paulo",
+    icon: architecure,
+    icon_background: "#FFFFFF",
+    date: "January 2013 - June 2014, in Azores",
+    description: "My experience working on a real architecture project was an unforgettable opportunity that I thoroughly enjoyed. The project involved modernizing a historic house while preserving its unique integration with nature. I spent countless hours researching and studying the house's architecture to come up with innovative ideas that would blend seamlessly with its surroundings. Despite the challenges, I found the project stimulating, demanding creativity, resourcefulness, and attention to detail. In the end, the project was a success, and the skills and knowledge I gained continue to impact my professional career positively.",
+    tasks: [
+      "Rehabilitation of a house for rural tourism",
+      "Project development and design of plans and sections.",
+      "Design of Urbanistic surroundings.",
+    ],
+    link: "https://es-l.airbnb.com/rooms/36148785?source_impression_id=p3_1679949173_iQ0wTUJ9nWb6HOIX"
   },
 ];
 
@@ -198,6 +216,13 @@ const feedbacks = [
     name: "Miquel Villacrosa",
     designation: "Executive Chef",
     company: "5-Cinco by Paco Perez",
+  },
+  {
+    feedback:
+      "The greatest aspects about working with João is his willing to help and how cool he is to be around. When working on a task you can expect not only insight and analysis from a good developer, but also a great time and authenticity from his persona. Anyone would feel lucky to have João as a team member.",
+    name: "Alejandro Mendonza",
+    designation: "Software Developer",
+    company: "NODE Robotics GmbH",
   },
 ];
 

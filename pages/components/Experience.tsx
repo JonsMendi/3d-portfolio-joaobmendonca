@@ -14,6 +14,7 @@ interface Experience {
   company_name: string;
   description: string;
   tasks: string[];
+  link: string;
 }
 
 const Experience = () => {

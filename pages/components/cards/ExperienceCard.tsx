@@ -10,6 +10,7 @@ interface Experience {
   company_name: string;
   description: string;
   tasks: string[];
+  link: string
 }
 
 interface Props {
@@ -23,7 +24,6 @@ const ExperienceCard: React.FC<Props> = ({ experience }) => {
         background: "#202328",
         color: "#FFFFFF",
       }}
-      date={experience?.date}
       iconStyle={{ background: experience?.icon_background }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
@@ -42,12 +42,24 @@ const ExperienceCard: React.FC<Props> = ({ experience }) => {
         <h3 className="text-[#9f9882] text-[24px] font-bold uppercase">
           {experience?.title}
         </h3>
-        <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {experience?.company_name}
-        </p>
+        <div className="mt-2">
+        <a 
+            target="_blank"
+            href={experience?.link}
+            className="text-white text-[18px] font-semibold transition ease-in-out delay-10 hover:text-gray-400 "
+            style={{ margin: 0 }}
+          >
+            {experience?.company_name}
+          </a>
+          <p
+            className="text-white text-[16px] font-semibold"
+            style={{ margin: 0 }}
+          >
+            {experience?.date}
+          </p>
+        </div>
+        
+        
       </div>
       <p className="text-secondary text-[24px] font-bold">
         {experience?.description}
