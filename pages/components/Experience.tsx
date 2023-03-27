@@ -6,6 +6,16 @@ import { experiences } from "../../utilities/data";
 import { titleVariant } from "../../utilities/motion-framer";
 import ExperienceCard from "./cards/ExperienceCard";
 
+interface Experience {
+  date: string;
+  icon: string;
+  icon_background: string;
+  title: string;
+  company_name: string;
+  description: string;
+  tasks: string[];
+}
+
 const Experience = () => {
   return (
     <m.section
@@ -30,7 +40,7 @@ const Experience = () => {
             {experiences.map((experience: Object, index: number) => (
               <ExperienceCard
                 key={`experience-${index}`}
-                experience={experience}
+                experience={experience as Experience}
               />
             ))}
           </VerticalTimeline>
