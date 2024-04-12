@@ -20,10 +20,11 @@ const About = () => {
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className='text-tertiary'>Experience: </span>
-          I&apos;m a Full-stack Web Developer with background in Architecture and Gastronomy, originally from the Azores, 
-          Portugal and now living in Berlin. My skills include Javascript, Typescript,
-          and frameworks like Angular and React. I&apos;m also experienced in CSS/SCSS, Three.js, 
-          and Leaflet.js, with a great passion for design.
+          As a Full-stack Web Developer, my journey has taken me from the scenic Azores of Portugal to the vibrant tech scene of Berlin. 
+          My background is as diverse as it is unique, spanning Robotics, Architecture, and even Gastronomy. I am proficient in Javascript 
+          and Typescript, and have a strong command of frameworks like Angular and React. My expertise also extends to Three.js, ROS, and Leaflet.js. 
+          Driven by a deep passion for design, I place a high value on creating well-structured, organized, and high-performance 
+          applications that are as robust as they are innovative. 
         </m.div>
         <m.div
           variants={titleVariant()}
@@ -43,7 +44,7 @@ const About = () => {
           As someone hailing from the Azores but residing in Berlin, I enjoy exploring the outskirts of the 
           city in search of the natural beauty of Brandenburg. Additionally, spending time with loved ones 
           is a top priority for me during my free time. Equally significant is my commitment to physical fitness, 
-          which I uphold by engaging in activities such as bouldering and basketball on a regular basis.
+          which I uphold by engaging in activities such as bouldering and jogging on a regular basis.
         </m.div>
       </div>
     </m.section>
