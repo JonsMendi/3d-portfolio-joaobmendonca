@@ -7,7 +7,7 @@ import { experiences } from "../../utilities/data";
 import { titleVariant } from "../../utilities/motion-framer";
 import ExperienceCard from "./cards/ExperienceCard";
 import useIsSmallScreen from "@/pages/hooks/useIsSmallScreen"; // Import the hook
-import { useIsTabletOrSmaller } from "../hooks/useIsTabletOrSmaller";
+import useIsTabletOrSmaller from "../hooks/useIsTabletOrSmaller";
 
 interface ExperienceProps {
   date: string;

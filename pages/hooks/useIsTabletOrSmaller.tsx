@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // Adjust this hook or create a similar one for tablet screens
-export const useIsTabletOrSmaller = (): boolean => {
+const useIsTabletOrSmaller = (): boolean => {
     const [isTabletOrSmaller, setIsTabletOrSmaller] = useState(false);
   
     useEffect(() => {
@@ -17,4 +17,6 @@ export const useIsTabletOrSmaller = (): boolean => {
   
     return isTabletOrSmaller;
   };
+
+export default useIsTabletOrSmaller;
   
