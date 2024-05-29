@@ -217,7 +217,7 @@ const backtechnologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     company_name: "N Robotics GmbH - Berlin, Germany",
     icon: nrobotics,
     icon_background: "#000000",
