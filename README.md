@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my new portfolio website built with Next.js, Three.js, TypeScript, and Tailwind.
+This is my new portfolio website built with Next.js, Three.js, TypeScript, and Tailwind. Check the [Live Website]([https://nextjs.org/](https://3d-portfolio-joaobmendonca-ilhc-592bxq51d-jonsmendis-projects.vercel.app/)
 
 ## Pages
 
