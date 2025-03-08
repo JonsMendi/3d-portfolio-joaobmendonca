@@ -23,8 +23,8 @@ const About = () => {
           As a Full-stack Web Developer, my journey has taken me from the scenic Azores of Portugal to the vibrant tech scene of Berlin. 
           My background is as diverse as it is unique, spanning Robotics, Architecture, and even Gastronomy. I am proficient in Javascript 
           and Typescript, and have a strong command of frameworks like Angular and React. My expertise also extends to Three.js, ROS, and Leaflet.js. 
-          Driven by a deep passion for design, I place a high value on creating well-structured, organized, and high-performance 
-          applications that are as robust as they are innovative. 
+          Driven by a deep passion for combining functionality, design and entertainment, I place a high value on creating well-structured, organized, and high-performance 
+          applications that are as robust as they are innovative offerering a great user experience. 
         </m.div>
         <m.div
           variants={titleVariant()}
