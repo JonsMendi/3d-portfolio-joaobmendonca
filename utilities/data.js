@@ -35,6 +35,7 @@ import postmanlogo from "/pages/assets/techstack/postman.svg";
 import terminal from "/pages/assets/techstack/terminal.png";
 import axios from "/pages/assets/techstack/axios.png";
 
+import wandelbots from "/pages/assets/experience/wandelbots.jpeg";
 import nrobotics from "/pages/assets/experience/nrobotics.png";
 import node from "/pages/assets/experience/node.jpeg";
 import noname from "/pages/assets/experience/noname.png";
@@ -48,6 +49,7 @@ import myFlix from "/pages/assets/portfolio/myFlix.png";
 import pokedex from "/pages/assets/portfolio/ncubotics.png";
 import postman from "/pages/assets/portfolio/postman.png";
 import myMovies from "/pages/assets/portfolio/movie-lists.png";
+import xplore from "/pages/assets/portfolio/x-plore.png";
 
 export const navLinks = [
   {
@@ -217,11 +219,25 @@ const backtechnologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "Wandelbots GmbH - Dresden, Germany",
+    icon: wandelbots,
+    icon_background: "#FFFFFF",
+    date: "December 2024 - Present (Remote)",
+    description: "Joining Wandelbots has been an exciting journey into the world of intuitive human-robot interaction. Here, I contribute to building software that empowers users to seamlessly control robotic arms, enhancing accessibility and efficiency in automation. Working with Next.js and Three.js, I help create immersive 3D interfaces that bridge the gap between technology and usability. It’s a dynamic and evolving experience, and I’m eager to see how this journey unfolds!",  
+    tasks: [
+      "Developing and enhancing applications that improve the interaction between humans and robotic arms.",
+      "Working with 3D visualization and control systems using Three.js and Next.js.",
+      "More details coming soon as the journey unfolds!"
+    ],
+    link: "https://www.wandelbots.com/",
+  },
+  {
     title: "Full-Stack Developer",
     company_name: "N Robotics GmbH - Berlin, Germany",
     icon: nrobotics,
     icon_background: "#000000",
-    date: "June 2023 - Present (Hybrid)",
+    date: "June 2023 - November 2024 (Hybrid)",
     description: "Working at N Robotics, a dynamic full-stack robotics company, has been a fantastic journey. As the sole Full-stack Developer, I balance enhancing our existing Flask UI and creating a new 3D UI interface with React and Three.js. The small, talented team offers a unique blend of collaboration and innovation. Each day is a blend of challenges and learning, where my involvement in the full development lifecycle enriches my skills and perspective. This experience, in a supportive and creative environment, is not just shaping my technical abilities but also my approach to teamwork and innovation.",    
     tasks: [
       "Frontend Vite React App (Version 18): Fully developed from scratch and maintained a TypeScript-based Vite React app for robot fleet management, enhancing control and user interaction with Three.js.",
@@ -382,6 +398,27 @@ const projects = [
     source_code_link: "https://github.com/JonsMendi/n-cubotics?tab=readme-ov-file",
   },
   {
+    name: "X-Plore",
+    description:
+      "X-Plore is a 3D first-person maze game built with Next.js and Three.js. Players must navigate through eerie, atmospheric mazes, finding their way to the exit while racing against time. The game focuses on simplicity, immersive lighting, and a creepy environment to enhance the challenge and experience.",
+    tags: [
+      {
+        name: "TypeScript",
+      },
+      {
+        name: "Next.js",
+      },
+      {
+        name: "Three.js",
+      },
+      {
+        name: "Tailwind",
+      },
+    ],
+    image: xplore,
+    source_code_link: "https://github.com/JonsMendi/x-plore",
+  },
+  {
     name: "Movie API (Back-End)",
     description:
       "Created an API and a Database that allow and generates information for the Movie front-end projects. In this project Authentication is controlled with passport. The login request will bear a JWToken to be used in each endpoint.",
@@ -461,27 +498,6 @@ const projects = [
     ],
     image: chatappapp,
     source_code_link: "https://github.com/JonsMendi/ChatApp",
-  },
-  {
-    name: "MyFlix-Angular",
-    description:
-      "Created an Angular front-end version of myMovies. Built using Angular Material and Typescript and works with the myFlix API.",
-    tags: [
-      {
-        name: "JavaScript",
-      },
-      {
-        name: "TypeScript",
-      },
-      {
-        name: "Angular",
-      },
-      {
-        name: "CSS",
-      },
-    ],
-    image: myFlix,
-    source_code_link: "https://github.com/JonsMendi/myFlix-Angular-client",
   },
 ];
 

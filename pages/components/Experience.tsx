@@ -6,7 +6,6 @@ import { styles } from "../../utilities/style";
 import { experiences } from "../../utilities/data";
 import { titleVariant } from "../../utilities/motion-framer";
 import ExperienceCard from "./cards/ExperienceCard";
-import useIsSmallScreen from "@/pages/hooks/useIsSmallScreen"; // Import the hook
 import useIsTabletOrSmaller from "../hooks/useIsTabletOrSmaller";
 
 interface ExperienceProps {
@@ -63,7 +62,11 @@ const Experience = () => {
         className={`${styles.padding} max-w-7xl mx-auto relative z-0 mt-20 flex-[0.75] bg-[#292d33] p-8 rounded-2xl`}
       >
         <div className="relative w-full mx-auto mt-20">
-          <m.div variants={titleVariant()}>
+          <m.div
+            variants={titleVariant()}
+            initial="hidden"
+            animate="show"
+          >
             <p className={`${styles.sectionSubText} text-center`}>
               What I have done so far
             </p>

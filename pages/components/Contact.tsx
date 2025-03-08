@@ -100,7 +100,7 @@ const Contact = () => {
                 <h2 className="text-xl font-bold mb-2">Name</h2>
                 <p className="text-tertiary mb-2">João Borges Mendonça</p>
                 <h2 className="text-xl font-bold mb-2">Location</h2>
-                <p className="text-tertiary mb-2">Berlin (Willing to Relocate)</p>
+                <p className="text-tertiary mb-2">Berlin, Germany</p>
                 <h2 className="text-xl font-bold mb-2">Phone</h2>
                 <p className="text-tertiary mb-2">+491744010727</p>
                 <h2 className="text-xl font-bold mb-2">Social Media</h2>
