@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my new portfolio website built with Next.js, Three.js, TypeScript, and Tailwind. Check the [Live Website](https://3d-portfolio-joaobmendonca-ilhc-592bxq51d-jonsmendis-projects.vercel.app/)
+This is my new portfolio website built with Next.js, Three.js, TypeScript, and Tailwind. Check the [Live Website](https://3d-portfolio-joaobmendonca.vercel.app/)
 
 ## Pages
 
@@ -47,7 +47,7 @@ This portfolio was built using the following technologies:
 
 To run this portfolio locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone this repository: `git clone https://github.com/JonsMendi/3d-portfolio-joaobmendonca.git`
 2. Install the dependencies: `npm install`
 3. Run the development server: `npm run dev`
 
